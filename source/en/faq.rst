@@ -60,7 +60,7 @@ Installation
 
 - How to develop by Java with client library
 
- It is much convenient to use the skeleton project, which published at `GitHub <https://github.com/jubatus/jubatus-java-skelton>`（template for Eclipse project）, when developing Jubatus client with Java.
+ It is much convenient to use the skeleton project, which published at `GitHub <https://github.com/jubatus/jubatus-java-skelton>` (template for Eclipse project), when developing Jubatus client with Java.
  Please follow the instructions below to use the Java skeleton for your development.
 
  #. Start Eclipse, select [File]>[Import].
@@ -70,7 +70,7 @@ Installation
  #. Forward through the dialogs operations, and click the [Finish] button.
 
  Once the import is finished, Maven will download the Jubatus client library automatically.
- Under \ ``src/main/java``\ Directory(default package), there will be a simple programーClient.java] which using Jubatus recommender function.
+ Under \ ``src/main/java``\ Directory(default package), there will be a simple program `Client.java` which using Jubatus recommender function.
 
 
 
@@ -124,7 +124,7 @@ Distributed Environment
     I0218 06:03:15.642297  3845 linear_mixer.cpp:231] mixed with 3 servers in 0.137258 secs, 8 bytes (serialized data) has been put.
     I0218 06:03:15.644685  3845 linear_mixer.cpp:185] .... 23th mix done.
 
-- Is it appropriate to use only a single server for all these processes, including jubaclassifier、jubaclassifier_keeper/Client and ZooKeeper, even in distributed model? 
+- Is it appropriate to use only a single server for all these processes, including jubaclassifier, jubaclassifier_keeper/Client and ZooKeeper, even in distributed model.
 
  No Problem. 
  However, comparing with the environment where each process has its privately owned server, the overall performance may decrease. In addition, we recommend an odd number of the ZooKeeper servers for the better ensemble.
@@ -134,8 +134,8 @@ Learning Model
 
 - In Classifier/Regression learning process, will the model learnt turns to be different due to the two different training methods below, 
 
-  - Input the training data into Jubatus in a patch way,（Bulk learning, the train method is called only by one time）
-  - The train method is called every time when learning each piece of training data 
+  - Input the training data into Jubatus in a patch way. (Bulk learning, the train method is called only by one time)
+  - The train method is called every time when learning each piece of training data.
 
  No difference in the final result of trained model.
 
