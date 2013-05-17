@@ -58,19 +58,19 @@ Installation
 
   export http_proxy=http://username:password@proxy.example.com:port/
 
-- How to develop by Java’s client library
+- How to develop by Java with client library
 
  It is much convenient to use the skeleton project, which published at `GitHub <https://github.com/jubatus/jubatus-java-skelton>`（template for Eclipse project）, when developing Jubatus client with Java.
  Please follow the instructions below to use the Java skeleton for your development.
 
- #. Start Eclipse, select［File］－［Import…］.
- #. Select［Git］>［Projects from Git］, click the［Next］ button.
- #. Select［URI］, click the［Next］ button.
- #. Input 「https://github.com/jubatus/jubatus-java-skelton.git」 into ［URI］, click the ［Next］ button.
+ #. Start Eclipse, select [File]>[Import].
+ #. Select [Git] > [Projects from Git], click the [Next] button.
+ #. Select [URI], click the [Next] button.
+ #. Input "https://github.com/jubatus/jubatus-java-skelton.git" into [URI], click the [Next] button.
  #. Forward through the dialogs operations, and click the [Finish] button.
 
  Once the import is finished, Maven will download the Jubatus client library automatically.
- Under \ ``src/main/java``\ Directory(default package), there will be a simple program「Client.java」, which using Jubatus recommender function.
+ Under \ ``src/main/java``\ Directory(default package), there will be a simple programーClient.java] which using Jubatus recommender function.
 
 
 
